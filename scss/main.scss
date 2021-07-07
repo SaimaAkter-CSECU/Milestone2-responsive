@@ -1,0 +1,163 @@
+html {
+    scroll-behavior: smooth;
+}  
+*{
+    padding: 0;
+    margin: 0; 
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    padding: 0; 
+}
+
+
+
+@mixin common-code ($par1, $par2, $par3, $par4){
+    font-family: $par1;
+    font-size: $par2;
+    font-weight: $par3;
+    color: $par4;
+}
+$bg-color: #FFFFFF;
+
+
+
+
+
+header{
+    background-image: url(../assets/Image/bg.png);
+    height: auto; 
+    background-size: cover;
+}
+.navbar-brand img{
+    width: 291px;
+}
+.navbar .nav-item{
+    padding: 1rem; 
+}
+.navbar .nav-link{
+    @include common-code('Roboto', 1rem, 500, #3c3c3c ); 
+    border-bottom: 2px solid transparent;
+    transition: all .3s ease;
+
+    &:hover{
+        border-bottom: 2px solid #000000; 
+        color: #000000;
+    }
+}
+.banner .banner-header{
+    @include common-code('Bebas Neue', 5rem, 700, #363958 );
+    line-height: 80px;
+
+    span{
+        color: #FABE4C;
+    }
+}
+.banner p{
+    @include common-code('Roboto', 1rem, 400, #3E3E3E ); 
+}
+.carousel-indicators button{
+    width: 1rem !important;
+    height: 0.1rem;
+    border-radius: 50%;
+    background: #A4BC46 !important;
+    font-size: 1rem;
+}
+.btn{
+    @include common-code('Roboto', 1rem, 500, #ffffff ); 
+    line-height: 24px;
+    width: 170px;
+    height: 60px;
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    border-radius: 10px;
+    border-image-slice: 1; 
+
+    &:hover{
+        color: #85A019;
+        background: #ffffff; 
+        border-image-source: linear-gradient(to left, #A4BC46, #85A019);
+    }
+}
+
+section{
+    background: $bg-color; 
+
+    .section-header{
+        @include common-code('Bebas Neue', 3rem, 700, #363958 );
+        line-height: 48px;
+        text-transform: uppercase;
+    }
+    .card{
+        background: #FFFFFF;
+        box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+        border-radius: 20px;
+        border: none;
+        &:hover{
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        &:hover img{
+            transform: scale(1.04);
+            overflow: hidden;
+        }
+        .card-img{
+            background: #F1F1F1;
+            border-radius: 20px;
+            height: 327px;
+        }
+        .card-img img{
+            transition: all 0.3s ease; 
+        }
+        .card-title{
+            @include common-code('Roboto', 1.5rem, 700, #363958 ); 
+            &:hover a{
+                color: #000;; 
+            }
+        }
+        .card-text{
+            @include common-code('Roboto', 1rem, 400, #3E3E3E ); 
+        }
+        .card-footer{
+            background: #ffffff;
+            border: none;
+            h4{
+                @include common-code('Roboto', 2.25rem, 900, #FABE4C ); 
+                line-height: 42px;
+            }
+        }
+    }
+
+    .media{
+        background: #FFFFFF;
+        box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+        border-radius: 20px;
+        &:hover {
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        h5{
+            @include common-code('Roboto', 1.5rem, 700, #363958 ); 
+            &:hover a{
+                color: #000;; 
+            }
+        }
+        p{
+            @include common-code('Roboto', 1rem, 400, #3E3E3E ); 
+        }
+        img{
+            width: 78px;
+            height: 82px;
+        }
+    }
+}
+.footer-menu-head{
+    @include common-code('Bebas Neue', 2rem, 500, #363958 );
+}
+.footer-menu li a{
+    @include common-code('Roboto', 1rem, 400, #3E3E3E ); 
+    transform: all 0.3s ease;
+    &:hover{
+        padding-left: 0.5rem; 
+        color: #A4BC46; 
+    }
+}

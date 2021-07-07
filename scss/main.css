@@ -1,0 +1,221 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  padding: 0;
+}
+
+header {
+  background-image: url(../assets/Image/bg.png);
+  height: auto;
+  background-size: cover;
+}
+
+.navbar-brand img {
+  width: 291px;
+}
+
+.navbar .nav-item {
+  padding: 1rem;
+}
+
+.navbar .nav-link {
+  font-family: "Roboto";
+  font-size: 1rem;
+  font-weight: 500;
+  color: #3c3c3c;
+  border-bottom: 2px solid transparent;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.navbar .nav-link:hover {
+  border-bottom: 2px solid #000000;
+  color: #000000;
+}
+
+.banner .banner-header {
+  font-family: "Bebas Neue";
+  font-size: 5rem;
+  font-weight: 700;
+  color: #363958;
+  line-height: 80px;
+}
+
+.banner .banner-header span {
+  color: #FABE4C;
+}
+
+.banner p {
+  font-family: "Roboto";
+  font-size: 1rem;
+  font-weight: 400;
+  color: #3E3E3E;
+}
+
+.carousel-indicators button {
+  width: 1rem !important;
+  height: 0.1rem;
+  border-radius: 50%;
+  background: #A4BC46 !important;
+  font-size: 1rem;
+}
+
+.btn {
+  font-family: "Roboto";
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 24px;
+  width: 170px;
+  height: 60px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#A4BC46), to(#85A019));
+  background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+  border-radius: 10px;
+  border-image-slice: 1;
+}
+
+.btn:hover {
+  color: #85A019;
+  background: #ffffff;
+  border-image-source: linear-gradient(to left, #A4BC46, #85A019);
+}
+
+section {
+  background: #FFFFFF;
+}
+
+section .section-header {
+  font-family: "Bebas Neue";
+  font-size: 3rem;
+  font-weight: 700;
+  color: #363958;
+  line-height: 48px;
+  text-transform: uppercase;
+}
+
+section .card {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  border: none;
+}
+
+section .card:hover {
+  -webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+section .card:hover img {
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
+  overflow: hidden;
+}
+
+section .card .card-img {
+  background: #F1F1F1;
+  border-radius: 20px;
+  height: 327px;
+}
+
+section .card .card-img img {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+section .card .card-title {
+  font-family: "Roboto";
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #363958;
+}
+
+section .card .card-title:hover a {
+  color: #000;
+}
+
+section .card .card-text {
+  font-family: "Roboto";
+  font-size: 1rem;
+  font-weight: 400;
+  color: #3E3E3E;
+}
+
+section .card .card-footer {
+  background: #ffffff;
+  border: none;
+}
+
+section .card .card-footer h4 {
+  font-family: "Roboto";
+  font-size: 2.25rem;
+  font-weight: 900;
+  color: #FABE4C;
+  line-height: 42px;
+}
+
+section .media {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+}
+
+section .media:hover {
+  -webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+section .media h5 {
+  font-family: "Roboto";
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #363958;
+}
+
+section .media h5:hover a {
+  color: #000;
+}
+
+section .media p {
+  font-family: "Roboto";
+  font-size: 1rem;
+  font-weight: 400;
+  color: #3E3E3E;
+}
+
+section .media img {
+  width: 78px;
+  height: 82px;
+}
+
+.footer-menu-head {
+  font-family: "Bebas Neue";
+  font-size: 2rem;
+  font-weight: 500;
+  color: #363958;
+}
+
+.footer-menu li a {
+  font-family: "Roboto";
+  font-size: 1rem;
+  font-weight: 400;
+  color: #3E3E3E;
+  -webkit-transform: all 0.3s ease;
+          transform: all 0.3s ease;
+}
+
+.footer-menu li a:hover {
+  padding-left: 0.5rem;
+  color: #A4BC46;
+}
+/*# sourceMappingURL=main.css.map */

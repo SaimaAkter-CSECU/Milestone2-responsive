@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css" integrity="sha512-OdEXQYCOldjqUEsuMKsZRj93Ht23QRlhIb8E/X0sbwZhme8eUw6g8q7AdxGJKakcBbv7+/PX0Gc2btf7Ru8cZA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.google.com/icons?family=Material+Icons+Sharp" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="scss/main.css">
+    <title>Penguine Fashion</title>
+</head>
+<body>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+              <img src="assets/Logo, Icon/logo.png" class="img-responsive" alt="">
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Product">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="banner pb-5">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators mb-0">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6 col-sm-12 d-flex align-self-center flex-column">
+                    <div class="container">
+                      <h1 class="banner-header me-3 mb-2"><span>Be the Penguins</span> of Winter</h1>
+                      <p class="w-75">Lorem Ipsubtn btn-sucesm is simply dummy text of the printing and typesetting industry.</p>
+                      <button class="btn btn-sucess d-flex align-items-center justify-content-center" type="button"> 
+                        <span class="material-icons">shopping_cart</span>
+                        buy now
+                      </button>
+                    </div>
+                    </div>
+                  <div class="col-md-6 col-sm-12">
+                    <figure>
+                      <img src="assets/Image/bg-banner.png" class="img-responsive img-fluid" alt="Penguine Fashion">
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="10000">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6 col-sm-12">
+                    <figure>
+                      <img src="assets/Image/bg-banner2.png" class="img-responsive img-fluid" alt="Penguine Fashion">
+                    </figure>
+                  </div>
+                  <div class="col-md-6 col-sm-12 d-flex align-self-center flex-column">
+                    <div class="container ms-5">
+                      <h1 class="banner-header me-3 mb-2"><span>Nike React </span> Infinity Run 2</h1>
+                      <p class="w-75">Lorem Ipsubtn btn-sucesm is simply dummy text of the printing and typesetting industry.</p>
+                      <button class="btn btn-sucess d-flex align-items-center justify-content-center" type="button"> 
+                        <span class="material-icons">shopping_cart</span>
+                        buy now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="10000">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6 col-sm-12 d-flex align-self-center flex-column">
+                    <div class="container">
+                      <h1 class="banner-header me-3 mb-2">BackPack <br /> <span>Moon</span> </h1>
+                      <p class="w-75">Lorem Ipsubtn btn-sucesm is simply dummy text of the printing and typesetting industry.</p>
+                      <button class="btn btn-sucess d-flex align-items-center justify-content-center" type="button"> 
+                        <span class="material-icons">shopping_cart</span>
+                        buy now
+                      </button>
+                    </div>
+                    </div>
+                  <div class="col-md-6 col-sm-12">
+                    <figure>
+                      <img src="assets/Image/bg-banner3.png" class="img-responsive img-fluid" alt="Penguine Fashion">
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="Product" class="py-5">
+      <div class="container">
+        <h3 class="section-header py-5">
+          women jacket
+        </h3>
+        <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
+          <div class="col">
+            <div class="card p-3 h-100">
+              <div class="card-img p-3">
+                <img src="assets/Image/img-1.png" class="card-img-top img-fluid h-100" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title pb-3"><a href="">Yellow Coat Jacket</a></h5>
+                <p class="card-text pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              </div>
+              <div class="card-footer d-flex justify-content-between align-items-center">
+                <h4>$234</h4>
+                <button class="btn btn-sucess d-flex align-items-center justify-content-center" type="button"> 
+                  <span class="material-icons">shopping_cart</span>
+                  buy now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card p-3 h-100">
+              <div class="card-img p-3">
+                <img src="assets/Image/img-2.png" class="card-img-top img-fluid h-100" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title pb-3"><a href="#">Ladies Jacket </a></h5>
+                <p class="card-text pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              </div>
+              <div class="card-footer d-flex justify-content-between align-items-center">
+                <h4>$234</h4>
+                <button class="btn btn-sucess d-flex align-items-center justify-content-center" type="button"> 
+                  <span class="material-icons">shopping_cart</span>
+                  buy now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card p-3 h-100">
+              <div class="card-img p-3">
+                <img src="assets/Image/img-3.png" class="card-img-top img-fluid h-100" alt="...">
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title pb-3"><a href="#">Woman Leather Jacket</a></h5>
+                <p class="card-text pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              </div>
+              <div class="card-footer d-flex justify-content-between align-items-center">
+                <h4>$234</h4>
+                <button class="btn btn-sucess d-flex align-items-center justify-content-center" type="button"> 
+                  <span class="material-icons">shopping_cart</span>
+                  buy now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="section-header py-5">
+          men jacket
+        </h3>
+        <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
+          <div class="col">
+            <div class="card p-3 h-100">
+              <div class="card-img p-3">
+                <img src="assets/Image/img-4.png" class="card-img-top img-fluid h-100" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title pb-3"><a href="#">Snowboard Jacket Mens</a></h5>
+                <p class="card-text pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              </div>
+              <div class="card-footer d-flex justify-content-between align-items-center">
+                <h4>$234</h4>
+                <button class="btn btn-sucess d-flex align-items-center justify-content-center" type="button"> 
+                  <span class="material-icons">shopping_cart</span>
+                  buy now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card p-3 h-100">
+              <div class="card-img p-3">
+                <img src="assets/Image/img-5.png" class="card-img-top img-fluid h-100" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title pb-3"><a href="#">Man Leather Jackets</a></h5>
+                <p class="card-text pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              </div>
+              <div class="card-footer d-flex justify-content-between align-items-center">
+                <h4>$234</h4>
+                <button class="btn btn-sucess d-flex align-items-center justify-content-center" type="button"> 
+                  <span class="material-icons">shopping_cart</span>
+                  buy now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card p-3 h-100">
+              <div class="card-img p-3">
+                <img src="assets/Image/img-6.png" class="card-img-top img-fluid h-100" alt="...">
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title pb-3"><a href="#">Man Casual Jackets</a></h5>
+                <p class="card-text pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              </div>
+              <div class="card-footer d-flex justify-content-between align-items-center">
+                <h4>$234</h4>
+                <button class="btn btn-sucess d-flex align-items-center justify-content-center" type="button"> 
+                  <span class="material-icons">shopping_cart</span>
+                  buy now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="section-header py-5">
+          casual shoes
+        </h3>
+        <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
+          <div class="col">
+            <div class="card p-3 h-100">
+              <div class="card-img p-3">
+                <img src="assets/Image/img-7.png" class="card-img-top img-fluid h-100" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title pb-3"><a href="#">Nike Shoe</a></h5>
+                <p class="card-text pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              </div>
+              <div class="card-footer d-flex justify-content-between align-items-center">
+                <h4>$234</h4>
+                <button class="btn btn-sucess d-flex align-items-center justify-content-center" type="button"> 
+                  <span class="material-icons">shopping_cart</span>
+                  buy now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card p-3 h-100">
+              <div class="card-img p-3">
+                <img src="assets/Image/img-8.png" class="card-img-top img-fluid h-100" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title pb-3"><a href="#">Sneakers Skate Shoe </a></h5>
+                <p class="card-text pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              </div>
+              <div class="card-footer d-flex justify-content-between align-items-center">
+                <h4>$234</h4>
+                <button class="btn btn-sucess d-flex align-items-center justify-content-center" type="button"> 
+                  <span class="material-icons">shopping_cart</span>
+                  buy now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card p-3 h-100">
+              <div class="card-img p-3">
+                <img src="assets/Image/img-9.png" class="card-img-top img-fluid h-100" alt="...">
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title pb-3"><a href="#">Sneakers Basketball shoe</a></h5>
+                <p class="card-text pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              </div>
+              <div class="card-footer d-flex justify-content-between align-items-center">
+                <h4>$234</h4>
+                <button class="btn btn-sucess d-flex align-items-center justify-content-center" type="button"> 
+                  <span class="material-icons">shopping_cart</span>
+                  buy now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="section-header py-5">
+          normal shoes
+        </h3>
+        <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
+          <div class="col">
+            <div class="card p-3 h-100">
+              <div class="card-img p-3">
+                <img src="assets/Image/img-10.png" class="card-img-top img-fluid h-100" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title pb-3"><a href="#">Prestige High-Cut Leather </a></h5>
+                <p class="card-text pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              </div>
+              <div class="card-footer d-flex justify-content-between align-items-center">
+                <h4>$234</h4>
+                <button class="btn btn-sucess d-flex align-items-center justify-content-center" type="button"> 
+                  <span class="material-icons">shopping_cart</span>
+                  buy now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card p-3 h-100">
+              <div class="card-img p-3">
+                <img src="assets/Image/img-11.png" class="card-img-top img-fluid h-100" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title pb-3"><a href="#">Slip-On Formal Shoe</a></h5>
+                <p class="card-text pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              </div>
+              <div class="card-footer d-flex justify-content-between align-items-center">
+                <h4>$234</h4>
+                <button class="btn btn-sucess d-flex align-items-center justify-content-center" type="button"> 
+                  <span class="material-icons">shopping_cart</span>
+                  buy now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card p-3 h-100">
+              <div class="card-img p-3">
+                <img src="assets/Image/img-12.png" class="card-img-top img-fluid h-100" alt="...">
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title pb-3"><a href="#">Slip-On Formal Shoe</a></h5>
+                <p class="card-text pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              </div>
+              <div class="card-footer d-flex justify-content-between align-items-center">
+                <h4>$234</h4>
+                <button class="btn btn-sucess d-flex align-items-center justify-content-center" type="button"> 
+                  <span class="material-icons">shopping_cart</span>
+                  buy now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="section-header py-5">
+          casual backpack
+        </h3>
+        <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
+          <div class="col">
+            <div class="card p-3 h-100">
+              <div class="card-img p-3">
+                <img src="assets/Image/img-13.png" class="card-img-top img-fluid h-100" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title pb-3"><a href="#">Nike Sportswear Hayward</a></h5>
+                <p class="card-text pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              </div>
+              <div class="card-footer d-flex justify-content-between align-items-center">
+                <h4>$234</h4>
+                <button class="btn btn-sucess d-flex align-items-center justify-content-center" type="button"> 
+                  <span class="material-icons">shopping_cart</span>
+                  buy now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card p-3 h-100">
+              <div class="card-img p-3">
+                <img src="assets/Image/img-14.png" class="card-img-top img-fluid h-100" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title pb-3"><a href="#">School backpack</a></h5>
+                <p class="card-text pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              </div>
+              <div class="card-footer d-flex justify-content-between align-items-center">
+                <h4>$234</h4>
+                <button class="btn btn-sucess d-flex align-items-center justify-content-center" type="button"> 
+                  <span class="material-icons">shopping_cart</span>
+                  buy now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card p-3 h-100">
+              <div class="card-img p-3">
+                <img src="assets/Image/img-15.png" class="card-img-top img-fluid h-100" alt="...">
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title pb-3"><a href="#">CityLite Security Backpack </a></h5>
+                <p class="card-text pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              </div>
+              <div class="card-footer d-flex justify-content-between align-items-center">
+                <h4>$234</h4>
+                <button class="btn btn-sucess d-flex align-items-center justify-content-center" type="button"> 
+                  <span class="material-icons">shopping_cart</span>
+                  buy now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="section-header py-5">
+          travel backpack
+        </h3>
+        <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
+          <div class="col">
+            <div class="card p-3 h-100">
+              <div class="card-img p-3">
+                <img src="assets/Image/img-16.png" class="card-img-top img-fluid h-100" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title pb-3"><a href="#">Travel Sport </a></h5>
+                <p class="card-text pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              </div>
+              <div class="card-footer d-flex justify-content-between align-items-center">
+                <h4>$234</h4>
+                <button class="btn btn-sucess d-flex align-items-center justify-content-center" type="button"> 
+                  <span class="material-icons">shopping_cart</span>
+                  buy now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card p-3 h-100">
+              <div class="card-img p-3">
+                <img src="assets/Image/img-17.png" class="card-img-top img-fluid h-100" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title pb-3"><a href="#">Jack Wolfskin West Highland </a></h5>
+                <p class="card-text pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              </div>
+              <div class="card-footer d-flex justify-content-between align-items-center">
+                <h4>$234</h4>
+                <button class="btn btn-sucess d-flex align-items-center justify-content-center" type="button"> 
+                  <span class="material-icons">shopping_cart</span>
+                  buy now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card p-3 h-100">
+              <div class="card-img p-3">
+                <img src="assets/Image/img-18.png" class="card-img-top img-fluid h-100" alt="...">
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title pb-3"><a href="#">Hiking Trekking Bag Camping</a></h5>
+                <p class="card-text pb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              </div>
+              <div class="card-footer d-flex justify-content-between align-items-center">
+                <h4>$234</h4>
+                <button class="btn btn-sucess d-flex align-items-center justify-content-center" type="button"> 
+                  <span class="material-icons">shopping_cart</span>
+                  buy now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="About">
+      <div class="container">
+        <div class="row d-flex flex-sm-row">
+          <div class="col-md-6 col-sm-12">
+            <div class="p-3">
+              <div class="row media mb-3 p-3">
+                <figure class="col-md-3 col-sm-12 text-center">
+                  <img src="assets/Logo, Icon/icon-1.png" class="img-responsive img-fluid" alt="...">
+                </figure>
+                <div class="col-md-9 col-sm-12 pe-5">
+                  <h5><a href="#">Find the Perfect Fit</a></h5>
+                  <p>Everybody is different, which is why we offer styles for every body.</p>
+                </div>
+              </div>
+              <div class="row media mb-3 p-3">
+                <figure class="col-md-3 col-sm-12 text-center">
+                  <img src="assets/Logo, Icon/icon-2.png" class="img-responsive img-fluid" alt="...">
+                </figure>
+                <div class="col-md-9 col-sm-12 pe-5">
+                  <h5><a href="#">Free Exchanges</a></h5>
+                  <p>One of the many reasons you can shop with peace of mind.</p>
+                </div>
+              </div>
+              <div class="row media mb-3 p-3">
+                <figure class="col-md-3 col-sm-12 text-center">
+                  <img src="assets/Logo, Icon/icon-3.png" class="img-responsive img-fluid" alt="...">
+                </figure>
+                <div class="col-md-9 col-sm-12 pe-5">
+                  <h5><a href="#">Contact Our Seller</a></h5>
+                  <p>They are here to help you. That's quite literally what we pay them for.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12 d-flex align-self-center">
+            <img src="assets/Image/bg-banner-2.png" class="img-responsive img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Contact" class="bg-light text-dark">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-3 col-sm-12 d-flex align-items-center">
+            <figure class="text-center p-lg-3">
+              <img src="assets/Logo, Icon/logo.png" class="img-responsive img-fluid" alt=""> 
+            </figure>
+          </div>
+          <div class="col-md-9 col-sm-12 ps-sm-3">
+            <div class="row">
+              <div class="col-md-3 col-sm-12">
+                <div class="footer-menu">
+                  <h5 class="footer-menu-head mb-3">Guide</h5>
+                  <ul class="list-unstyled">
+                    <li class="py-1"><a href="#">Getting Start</a></li>
+                    <li class="py-1"><a href="#">Starter Template</a></li>
+                    <li class="py-1"><a href="#">Webpack</a></li>
+                    <li class="py-1"><a href="#">Parcel</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-12">
+                <div class="footer-menu">
+                  <h5 class="footer-menu-head mb-3">Links</h5>
+                  <ul class="list-unstyled">
+                    <li class="py-1"><a href="#">Home</a></li>
+                    <li class="py-1"><a href="#">Product</a></li>
+                    <li class="py-1"><a href="#">About</a></li>
+                    <li class="py-1"><a href="#">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-12">
+                <div class="footer-menu">
+                  <h5 class="footer-menu-head mb-3">Communities</h5>
+                  <ul class="list-unstyled">
+                    <li class="py-1"><a href="#">Issues</a></li>
+                    <li class="py-1"><a href="#">Discussion</a></li>
+                    <li class="py-1"><a href="#">Slack</a></li>
+                    <li class="py-1"><a href="#">Stack Overflow</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-12">
+                <div class="footer-menu">
+                  <h5 class="footer-menu-head mb-3">Connect With Us</h5>
+                  <ul class="list-unstyled">
+                    <li class="py-1">
+                      <a href="#" class="d-flex align-items-center">
+                        <span class="material-icons text-dark me-3">facebook</span>
+                      Facebook
+                    </a>
+                    </li>
+                    <li class="py-1">
+                      <a href="#" class="d-flex align-items-center">
+                        <span class="material-icons text-dark me-3">whatshot</span>
+                        WhatShot
+                      </a>
+                    </li>
+                    <li class="py-1">
+                      <a href="#" class="d-flex align-items-center">
+                        <span class="material-icons text-dark me-3">share</span>
+                        Skype
+                      </a>
+                    </li>
+                    <li class="py-1">
+                      <a href="#" class="d-flex align-items-center">
+                        <span class="material-icons text-dark me-3">facebook</span>
+                        Instagram
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark py-3">
+      <div class="container">
+        <p class="text-center text-light"> &copy;2021 All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
